@@ -16,13 +16,13 @@ get '/pve' do
   erb(:pve)
 end
 
-# get '/next-turn' do
-#   erb(:player2)
-# end
+get '/next-turn' do
+  erb(:player2)
+end
 
 get '/pvp/:player1' do
-  @player1 = Rps.translate(params[:player1])
-  erb(:player2)
+  $player1 = (params[:player1])
+  erb(:next_turn)
 end
 
 get '/pvp/:player1/:player2' do

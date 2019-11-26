@@ -1,15 +1,15 @@
 h1 {
   font-size: 40px;
   font-family: calibri;
-  background-color: aqua;
+  background-color: blue;
 }
 
 header {
+  font-size: 32px;
   colour: black;
-  background-color: fuchsia;
 }
 
 body {
   font-size: 32px;
-    background-color: lime;
+  background-color: grey;
 }
